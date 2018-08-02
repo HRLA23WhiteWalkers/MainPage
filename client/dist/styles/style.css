@@ -1,0 +1,115 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'cerealBold';
+  src: url('./Cereal/AirbnbCereal-Bold.ttf');
+}
+@font-face {
+  font-family: 'cerealBook';
+  src: url('./Cereal/AirbnbCereal-Book.ttf');
+}
+@font-face {
+  font-family: 'cerealLight';
+  src: url('./Cereal/AirbnbCereal-Light.ttf')
+}
+@font-face {
+  font-family: 'cerealMedium';
+  src: url('./Cereal/AirbnbCereal-Medium.ttf')
+}
+
+/* Header Components */
+:local(.header) {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+:local(.houseName) {
+  color: rgb(63,63,63);
+  font-family: 'cerealBold';
+  font-size: 32px;
+  line-height: 36px;
+  /* margin-top: none; */
+}
+:local(.houseType) {
+  color: rgb(140,115,97);
+  font-family: 'cerealBold';
+  font-size: 12px;
+  line-height: 16px !important;
+  font-weight: 800 !important;
+}
+:local(.location) {
+  margin-top: 20px;
+  color: black;
+  font-family: 'cerealLight';
+  font-weight: lighter;
+}
+:local(.mainDetails) {
+  font-family: 'cerealBook';
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #484848;
+}
+:local(.guests) {
+  margin-right: 20px;
+}
+:local(.beds) {
+  margin-right: 20px;
+}
+:local(.bedroom) {
+  margin-right: 20px;
+}
+:local(.baths) {
+  margin-right: 20px;
+}
+
+/* Highlights Component */
+
+:local(.highlights) {
+  font-family: "cerealBook";
+  border: 1px solid #DBDBDB
+  rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  box-shadow: 0 0.5px 2px 0;
+  padding: 24px;
+  /* width: 100%; */
+  margin-right: 4px;
+}
+:local(.title) {
+  font-family: 'cerealBold';
+  color: rgb(110,110,110);
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+:local(.highlightTitle) {
+  font-family: 'cerealMedium';
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: normal;
+  word-wrap: break-word;
+  color: #484848;
+  display: inline;
+}
+/* :local(.highlightTitle) {
+  font-family: 'cerealBold';
+  color: #484848;
+} */
+
+/* Description Component */
+
+:local(.body) {
+  margin-top: 20px;
+  font-family: 'cerealBook';
+  color: #484848;
+  line-height: 22px;
+  letter-spacing: normal;
+  word-wrap: break-word;
+}
+:local(.space) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'cerealBold';
+}
+:local(.guestaccess) {
+  font-family: 'cerealBold';
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
