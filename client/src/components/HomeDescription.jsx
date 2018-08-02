@@ -4,7 +4,9 @@ import styles from '../../dist/styles/style.css';
 class HomeDescription extends Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = { 
+      body: [undefined]
+     }
   }
   render() { 
     return ( 
@@ -13,6 +15,7 @@ class HomeDescription extends Component {
           <p>A unique experience for the person who loves nature and vintage American icons. A little rustic, but vastly rewarding. Please read the entire listing and view an extensive photo library to determine if this satisfies your creature comfort quotient!
   Check out our Airbnb China lifestyle interview on YT video network:
   /watch?Pfnle8DXleU</p>
+          <h4 className={styles.readMore}>Read more about the space</h4>
           <h4 className={styles.space}>The space</h4>
           <p>Featured here is a 1971 AIRSTREAM 28' 'SOVEREIGN OF THE ROAD' trailer.
   This INTERNATIONAL model was the Cadillac of trailers in it's day.

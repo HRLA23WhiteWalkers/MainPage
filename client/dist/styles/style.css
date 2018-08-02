@@ -17,14 +17,41 @@
   src: url('./Cereal/AirbnbCereal-Medium.ttf')
 }
 /* Main Page */
+:local(.container) {
+  /* border: 1px solid black; */
+  position: relative;
+  margin: auto;  
+}
 :local(.mainPage) {
+  max-width: 700px;
   width: 100%;
-  margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin: auto;
+  /* border: 1px solid pink; */
 }
 
 /* Header Components */
+:local(.mainHeader) {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  /* border: 1px solid blue; */
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+}
+:local(.left) {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+:local(.right) {
+  /* border: 1px solid red; */
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
 :local(.viewCount) {
   font-family: 'cerealBook';
 }
@@ -46,16 +73,16 @@
   font-weight: 800 !important;
 }
 :local(.icon) {
-  width: 48px;
-  height: 48px;
+  display: flex;
+  max-width: 64px;
+  max-height: 64px;
   border-radius: 50%;
-  position: fixed;
-  right: 35%;
-
+  margin-left: 25%;
+  margin-top: 10%;
 }
 :local(.location) {
   margin-top: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: black;
   font-family: 'cerealLight';
   font-weight: lighter;
@@ -63,7 +90,7 @@
 :local(.mainDetails) {
   font-family: 'cerealBook';
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   color: #484848;
 }
 :local(.guests) {
@@ -83,10 +110,8 @@
 
 /* border */
 :local(.highlights) {
-  border: 1px solid #DBDBDB
-  rgba(0, 0, 0, 0.005);
+  border: 1px solid #dbdbdb;
   border-radius: 4px;
-  box-shadow: 0 0.5px 2px 0;
   padding: 24px;
   margin-right: 4px;
 }
@@ -134,4 +159,9 @@
   font-family: 'cerealBold';
   margin-top: 20px;
   margin-bottom: 20px;
+}
+:local(.readMore) {
+  margin-top: 20px;
+  font-family: 'cerealMedium';
+  color: #008489;
 }

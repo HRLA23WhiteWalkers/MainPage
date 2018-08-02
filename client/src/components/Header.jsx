@@ -51,7 +51,8 @@ class Header extends Component {
 
   render() { 
     return (
-      <div className={styles.mainPage}>
+      <div className={styles.mainHeader}>
+        <div className={styles.left} >
         <div className={styles.viewCount}>
           This home is on people's minds.
           <br/>
@@ -60,9 +61,6 @@ class Header extends Component {
         <div className={styles.header}>
           <h5 className={styles.houseType} >{this.state.houseType}</h5>
           <h1 className={styles.houseName} >{this.state.houseName}</h1>
-          <span>
-            <img className={styles.icon} src={this.state.icon}/>
-          </span>
           <h4 className={styles.location}>{this.state.location}</h4>
         </div>
         <div className={styles.mainDetails}>
@@ -75,6 +73,10 @@ class Header extends Component {
           <Icon icon={bath}/>
           <span className={styles.baths}>{'  '}{this.state.baths}{'  '}bath{'  '}</span>
         </div>  
+        </div>
+          <div className={styles.right}>
+            <img className={styles.icon} src={this.state.icon} title={"Blake"}/>
+          </div>
       </div>
     );
   }
@@ -82,5 +84,4 @@ class Header extends Component {
  
 export default Header;
 
-{/* <img class="_12r18es" src="https://a0.muscache.com/im/users/4308078/profile_pic/1355115172/original.jpg?aki_policy=profile_x_medium" height="48" width="48" alt="Murray &amp; Kay User Profile" title="Murray &amp; Kay User Profile"> */}
 

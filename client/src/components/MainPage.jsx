@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Highlights from './Highlights';
 import HomeDescription from './HomeDescription';
+import styles from "../../dist/styles/style.css";
 
 export default class MainPage extends Component {
   constructor() {
@@ -11,7 +12,7 @@ export default class MainPage extends Component {
   }
   render() {
     return(
-      <div>
+      <div className={styles.container}>
         <Header/>
         <Highlights/>
         <HomeDescription/>

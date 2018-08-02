@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styles from '../../dist/styles/style.css';
 import axios from 'axios';
 
+
+
 class Highlights extends Component {
   constructor(props) {
     super(props);
