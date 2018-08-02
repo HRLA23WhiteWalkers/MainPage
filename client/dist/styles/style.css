@@ -16,8 +16,18 @@
   font-family: 'cerealMedium';
   src: url('./Cereal/AirbnbCereal-Medium.ttf')
 }
+/* Main Page */
+:local(.mainPage) {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 /* Header Components */
+:local(.viewCount) {
+  font-family: 'cerealBook';
+}
 :local(.header) {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -27,7 +37,6 @@
   font-family: 'cerealBold';
   font-size: 32px;
   line-height: 36px;
-  /* margin-top: none; */
 }
 :local(.houseType) {
   color: rgb(140,115,97);
@@ -36,8 +45,17 @@
   line-height: 16px !important;
   font-weight: 800 !important;
 }
+:local(.icon) {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: fixed;
+  right: 35%;
+
+}
 :local(.location) {
-  margin-top: 20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
   color: black;
   font-family: 'cerealLight';
   font-weight: lighter;
@@ -63,14 +81,13 @@
 
 /* Highlights Component */
 
+/* border */
 :local(.highlights) {
-  font-family: "cerealBook";
   border: 1px solid #DBDBDB
-  rgba(0, 0, 0, 0.05);
+  rgba(0, 0, 0, 0.005);
   border-radius: 4px;
   box-shadow: 0 0.5px 2px 0;
   padding: 24px;
-  /* width: 100%; */
   margin-right: 4px;
 }
 :local(.title) {
@@ -79,8 +96,13 @@
   font-size: 13px;
   margin-bottom: 16px;
 }
-:local(.highlightTitle) {
+:local(.detail) {
   font-family: 'cerealMedium';
+  color: #484848;
+
+}
+:local(.highlightTitle) {
+  font-family: 'cerealBook';
   font-size: 16px;
   line-height: 22px;
   letter-spacing: normal;

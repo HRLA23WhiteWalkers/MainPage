@@ -34,16 +34,18 @@ class Highlights extends Component {
   render() { 
     let { highlight } = this.state;    console.log(highlight);
     return ( 
-      <div className={styles.highlights}>
-        <h5 className={styles.title}>HOME HIGHLIGHTS</h5>
-        <div className={styles.highlightTitle}>
-          {highlight.title.map((title, index) => 
-            <div key={index}>{title}{' '}{highlight.detail[0]}</div>
-          )}
-          {/* <span className={styles.detail}>{highlight.detail[0]}</span> */}
-          <div className={styles.isHelpful}>
-            <span className={styles.helpful}>Helpful</span>{' '}
-            <span className={styles.nothelpful}>Not helpful</span>
+      <div className={styles.mainPage}>
+        <div className={styles.highlights}>
+          <h5 className={styles.title}>HOME HIGHLIGHTS</h5>
+          <div className={styles.highlightTitle}>
+            {highlight.title.map((title, index) => 
+              <div className={styles.detail} key={index}>{title}{' '}{highlight.detail[0]}</div>
+            )}
+            {/* <span className={styles.detail}>{highlight.detail[0]}</span> */}
+            <div className={styles.isHelpful}>
+              <span className={styles.helpful}>Helpful</span>{' '}
+              <span className={styles.nothelpful}>Not helpful</span>
+            </div>
           </div>
         </div>
       </div>

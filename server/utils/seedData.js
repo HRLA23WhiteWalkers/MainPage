@@ -6,6 +6,7 @@ const data = [
     viewCount: 323,
     houseName: "Airstream Vintage Adventure",
     houseType: "CAMPER/RV",
+    icon: "https://a0.muscache.com/im/users/4308078/profile_pic/1355115172/original.jpg?aki_policy=profile_x_medium",
     location: 'Malibu',
     guests: 4,
     beds: 3,
