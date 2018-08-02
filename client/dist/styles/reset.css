@@ -29,8 +29,10 @@
 }
 :global(body) {
 	line-height: 1;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 80px;
+	margin-right: 20px;
+	text-align: left;
+	max-width: 600px;
 }
 :global(ol), :global(ul) {
 	list-style: none;
@@ -42,8 +44,8 @@
 :global(q:before), :global(q:after) {
 	content: '';
 	content: none;
-} */
-:global(table) {
+}
+ :global(table) {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 

@@ -76,5 +76,4 @@ class Header extends Component {
 }
  
 export default Header;
-// style={{fontFamily: cerealBold}}
-// style={{fontFamily: cerealBook}}
+
