@@ -11,6 +11,7 @@ module.exports = {
     .catch(err => {
       res.status(404).send('Could not load main page', err);
     })
+    
   },
   
 }
