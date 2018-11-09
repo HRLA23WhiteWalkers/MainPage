@@ -53,11 +53,11 @@ class Header extends Component {
     return (
       <div className={styles.mainHeader}>
         <div className={styles.left} >
-        <div className={styles.viewCount}>
+        {/* <div className={styles.viewCount}>
           This home is on people's minds.
           <br/>
           It's been viewed {this.state.viewCount} times in the past week.
-        </div>
+        </div> */}
         <div className={styles.header}>
           <h5 className={styles.houseType} >{this.state.houseType}</h5>
           <h1 className={styles.houseName} >{this.state.houseName}</h1>

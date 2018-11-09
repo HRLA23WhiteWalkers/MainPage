@@ -21,6 +21,7 @@
   /* border: 1px solid black; */
   position: relative;
   margin: auto;  
+  
 }
 :local(.mainPage) {
   max-width: 700px;
@@ -33,7 +34,7 @@
 :local(.mainHeader) {
   display: flex;
   margin: auto;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   /* border: 1px solid blue; */
   display: flex;
   max-width: 700px;

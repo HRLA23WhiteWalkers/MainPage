@@ -29,8 +29,8 @@
 }
 :global(body) {
 	line-height: 1;
-	margin-left: 20px;
-	margin-right: 20px;
+	/* margin-left: 20px;
+	margin-right: 20px; */
 	text-align: left;
 }
 :global(ol), :global(ul) {
